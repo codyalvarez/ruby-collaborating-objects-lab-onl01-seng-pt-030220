@@ -11,7 +11,7 @@ class Artist
 
   def add_song(song)
     self.songs << song
-    self    #Artist.songs reader returns all songs
+    # self    #Artist.songs reader returns all songs
   end
 
   def save
